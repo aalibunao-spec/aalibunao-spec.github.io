@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="CSS/THEstyle.css">
+<title>Projects</title>
+</head>
+
+<body>
+<header class="siteheader">
+  <div class="small-top">Welcome to</div>
+  <h1>AJL's PROJECTS</h1>
+  <body>
+<br>
+<p> <strong>Toggle Dark/Light Mode</strong> </p>
+<button onclick="myFunction()">Click me!</button>
+</header>
+
+<nav class="navbar">
+  <a href="index.html">Homepage</a>
+  <a href="About.html">About Me</a>
+  <a href="Projects.html">My Projects</a>
+  <a href="WebDesWork.html">Web Design Coursework</a>
+  <a href="Contact.html">Contact Me</a>
+</nav>
+
+<main class="page">
+  <div class="content-area">
+    <section>
+      <p class="section-label">AJL's PROJECTS</p>
+      <div class="desc-grid">
+        <article class="desc" style="background-color: rgb(229, 197, 255);">
+          <h3>Personal Projects</h3>
+          <p style="font-size: medium;">These are Projects I worked on a personal note. The first is a drawing I made of an Original Character for DND 
+            and obviously inspired by the character Son Goku.
+            <br>
+            The other is a drawing of another Original Character that can run really fast, though the drawing is mainly to practice my skill on drawing buildings and perspective
+          </p>
+          <div style="text-align: center;">
+          <img src="WebImages/OCwork.png" alt="OC Artwork" width="225 px" class="centerImage"> 
+          <img src="WebImages/Artwork1.png" alt="OC Artwork 2" width="200 px" class="centerImage">
+          </div>
+        </article>
+        <article class="desc" style="background-color: rgb(197, 242, 255);">
+          <h3>Projects Outside of Web Design</h3>
+          <p style="font-size: medium;">In other Projects for classes, I made 3D Models for both a Car and a Book, I'm also working on a whole character but
+            that isn't done yet
+          </p>
+          <div style="text-align: center;">
+          <img src="WebImages/Book.jpg" alt="3D Model Book" width="250 px" class="centerImage"> 
+          <img src="WebImages/Car.jpg" alt="3D Model Car" width="250 px" class="centerImage">
+          </div>
+        </article>
+        </article>
+       </div>
+    </section>
+  </div>
+</main>
+  
+<footer class="site-footer" id="footer">AEDRIEN JOSEPH LIBUNAO · HOME</footer>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>

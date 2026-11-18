@@ -1,0 +1,25 @@
+* {box-sizing: border-box;}
+body {margin: 0; font-family:Arial, Helvetica, sans-serif; color: #17242a; background: #f1f4f2;} .dark-mode {background-color: black;color: rgb(8, 7, 7);}
+h2 {font-family: Georgia, serif; font-size: 27px; line-height: 1.12; margin: 12px 0;}
+.small-top {color: #e9c65d; font-size: 11px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase;}
+.siteheader {background: darkblue; color: white; padding: 22px 18px; text-align: center;} 
+.siteheader h1 {font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 32px; margin: 6px 0; letter-spacing: -1px;}
+.siteheader p {font-size: 12px; margin: 0; color: #d5e6dc;}
+.navbar {background: #9c3d3d; padding: 20px; text-align: center;} 
+.navbar a {padding: 20px; color: #bde1ff; text-decoration: none; font-weight: bold; font-size: 12px;}
+.page {width: 100%; padding: 16px; margin: 0 auto;}
+.content-area {display: block;}
+.section-label {font-size: 15px; color: #0c6568; font-weight: bold; letter-spacing: 1.4px; text-transform: uppercase; margin: 0 0 10px;}
+.desc {padding: 0 0 20px;}
+.desc {background: rgb(191, 191, 191); border: 1px solid #dde5df; border-radius: 7px; } 
+.desc-grid {display: grid; grid-template-columns: 1fr; gap: 24px;}
+.descImg {height: 220px; display: flex; align-items: center; justify-content: center; font-size: 53px; background: #f4b9ec;}
+.desc:nth-child(2) .descImg {background: #b2ecff;}
+.desc:nth-child(3) .descImg {background: #ffd28e;}
+.desc:nth-child(4) .descImg {background: #ff9f9f;}
+.desc:nth-child(5) .descImg {background: #c0ffcc;}
+.desc:nth-child(6) .descImg {background: #fcffad;}
+.centerImage {margin: 12px}
+.desc h3 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px; line-height: 1; margin: 10px 13px 7px;}
+.desc p {font-size: 12px; line-height: 1.5; color: #000000; margin: 0 13px; }
+.site-footer {background: darkblue; color: #e2f0e8; text-align: center; font-size: 11px; padding: 22px 12px; margin-top: 24px;}
